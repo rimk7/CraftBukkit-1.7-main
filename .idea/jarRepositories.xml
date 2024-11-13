@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="sonatype-nexus-snapshots" />
+      <option name="name" value="Sonatype Nexus Snapshots" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="paper-repo" />
+      <option name="name" value="paper-repo" />
+      <option name="url" value="https://papermc.io/repo/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="md_5-releases" />
+      <option name="name" value="md_5-releases" />
+      <option name="url" value="http://repo.md-5.net/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bungeecord-releases" />
+      <option name="name" value="bungeecord-releases" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sonatype-snapshots" />
+      <option name="name" value="sonatype-snapshots" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvnrepository" />
+      <option name="name" value="mvnrepository" />
+      <option name="url" value="https://mvnrepository.com/artifact/org.apache.commons/commons-math3" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="elmakers-repo" />
+      <option name="name" value="elmakers-repo" />
+      <option name="url" value="https://maven.elmakers.com/repository/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="elmakers-repo" />
+      <option name="name" value="elmakers-repo" />
+      <option name="url" value="http://maven.elmakers.com/repository/" />
+    </remote-repository>
+  </component>
+</project>
