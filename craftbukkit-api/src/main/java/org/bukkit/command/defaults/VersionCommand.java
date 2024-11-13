@@ -27,7 +27,7 @@ public class VersionCommand extends BukkitCommand {
     @Override
     public boolean execute(CommandSender sender, String currentAlias, String[] args) {
         if (args.length == 0) {
-            sender.sendMessage(ChatColor.GREEN + "This server is running CobelPvP Spigot" + ChatColor.GREEN + " version " + ChatColor.GREEN + Bukkit.getVersion() + ChatColor.GOLD + " (Implementing API version CraftBukkit 1.7)");
+            sender.sendMessage(ChatColor.GREEN + "This server is running CraftBukkit Spigot" + ChatColor.GREEN + " version " + ChatColor.GREEN + Bukkit.getVersion() + ChatColor.GOLD + " (Implementing API version CraftBukkit 1.7)");
         } else {
             StringBuilder name = new StringBuilder();
 
