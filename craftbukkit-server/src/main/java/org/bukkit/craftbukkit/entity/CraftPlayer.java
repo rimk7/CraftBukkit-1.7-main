@@ -27,6 +27,7 @@ import org.bukkit.craftbukkit.util.CraftMagicNumbers;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.*;
+import org.bukkit.event.player.PlayerVelocityEvent;
 import org.bukkit.inventory.InventoryView.Property;
 import org.bukkit.map.MapView;
 import org.bukkit.metadata.MetadataValue;
@@ -91,6 +92,10 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
         entity.motX = vel.getX();
         entity.motY = vel.getY();
         entity.motZ = vel.getZ();
+        if (entity.motY > 0) {
+            entity.fallDistance = 0.0f;
+        }
+
     }
 
     public GameProfile getProfile() {
