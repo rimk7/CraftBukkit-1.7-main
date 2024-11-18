@@ -22,6 +22,7 @@ import org.bukkit.event.player.*;
 // CraftBukkit end
 import org.spigotmc.ProtocolData; // Spigot - protocol patch
 import org.spigotmc.SpigotConfig;
+import org.spigotmc.SpigotWorldConfig;
 
 public abstract class EntityHuman extends EntityLiving implements ICommandListener {
 

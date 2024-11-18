@@ -387,4 +387,22 @@ public class SpigotWorldConfig
         useAlternateEndSpawn = getBoolean( "useAlternateEndSpawn", true);
     }
     // CobelPvP end
+
+    public double knockbackSprintVertical = 0.1D;
+    public double knockbackSprintHorizontal = 0.5D;
+    public boolean knockbackResetFallDistance = false;
+    public double knockbackHeight = 0.4D;
+    public double knockbackHorizontal = 0.4D;
+    public double knockbackFriction = 2.0D;
+    public double knockbackVerticalLimit = 0.4D;
+    private void knockbackSetup()
+    {
+        knockbackSprintVertical = getDouble( "knockback.sprint-vertical", knockbackSprintVertical );
+        knockbackSprintHorizontal = getDouble( "knockback.sprint-horizontal", knockbackSprintHorizontal );
+        knockbackResetFallDistance = getBoolean( "knockback.reset-fall-distance", knockbackResetFallDistance );
+        knockbackHeight = getDouble( "knockback.height", knockbackHeight );
+        knockbackHorizontal = getDouble( "knockback.horizontal", knockbackHorizontal );
+        knockbackFriction = getDouble( "knockback.friction", knockbackFriction );
+        knockbackVerticalLimit = getDouble( "knockback.vertical-limit", knockbackVerticalLimit );
+    }
 }
