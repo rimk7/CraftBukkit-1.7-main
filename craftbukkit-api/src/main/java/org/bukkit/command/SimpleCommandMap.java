@@ -28,6 +28,7 @@ public class SimpleCommandMap implements CommandMap {
     }
 
     private void setDefaultCommands() {
+        register("bukkit", new PingCommand());
         register("bukkit", new SaveCommand());
         register("bukkit", new SaveOnCommand());
         register("bukkit", new SaveOffCommand());

@@ -24,6 +24,8 @@ import org.bukkit.scoreboard.Scoreboard;
  */
 public interface Player extends HumanEntity, Conversable, CommandSender, OfflinePlayer, PluginMessageRecipient {
 
+    int getPing();
+
     /**
      * Gets the "friendly" name to display of this player. This may include
      * color.
